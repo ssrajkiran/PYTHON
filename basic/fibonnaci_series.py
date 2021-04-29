@@ -9,4 +9,4 @@ def Fibonacci(n):
             return Fibonacci(n-1)+Fibonacci(n-2)
 
 a=int(input("Enter the number :"))        
-print(Fibonacci(a))
+print("Fibonacci nth :{}".format(Fibonacci(a)))
